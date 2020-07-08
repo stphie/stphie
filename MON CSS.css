@@ -1,0 +1,139 @@
+#bloc_page
+{
+	width: 1500px;
+	margin: auto;
+}
+header
+{
+	background-color: #fec405;
+}
+
+header h1
+{
+	font-family:'learningCurveProRegular',Arial, serif;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+header h1
+{
+	display: inline-block;
+	margin-bottom: 0px;
+	
+}
+header h2
+{
+	font-famiy: Dayrom, serif;
+	font-size : 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+#titre_principal
+{
+		display: inline-block;
+}
+nav
+{
+	display-inline-block;
+	width: 740;
+	text-align: right;
+}
+nav ul
+{
+	list-style-type: none;
+}
+nav li
+{
+	display:inline-block;
+	margin-right: 15px;
+}
+nav a
+{
+	font-size: 1.3em;
+	color:#181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: yellow;
+	padding-ottom: 3px solid #760001;
+}
+#banniere_image
+{
+	margin-top: 0px;
+	height: 200px;
+	border_radius: 5px;
+	background: url('image/ga.jng') no repeat;
+	position: relativebox-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+}
+body p
+{
+	text-align: justify;
+}
+ footer h5, #contacts 
+{
+	text-align: center;
+}
+section, footer 
+{
+	display-inline-bloc;
+	border: 1px solid black;
+	vertical-align: top;
+	text-align: justify;
+}
+aside h2
+{
+	box-shadow: 6px 6px 6px maroon inset;
+	text-align: center;
+	width:235px;
+	border-radius: 5px;
+	padding: 10px;
+	color: blue;
+	font-size: 1.5em;
+}
+a
+{
+	text-decoration:none; /*lien par defaut*/
+	color: black;
+	font-style: none;
+}
+a:hover
+{
+	text-decoration: underline; /*lien au survol*/
+	color: red;
+	
+}
+footer
+{
+	font-size:0.9em;
+}
+#tel, #facebook, #mail, #whatsap, #youtube, #lieu
+{
+	display:inline-block;
+	vertical-align:top;
+}
+#tel
+{
+	width: 16%;
+}
+#facebook
+{
+	width: 16%;
+}
+#mail
+{
+	width: 16%;
+}
+#whatsap
+{
+	width: 16%;
+}
+#youtube
+{
+	width: 16%;
+}
+#lieu
+{
+	width: 16%;
+}
